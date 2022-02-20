@@ -1,0 +1,16 @@
+@Library('javahome-demo') _
+
+pipeline{
+    agent any
+    stages{
+        stage('Demo'){
+            steps{
+                welcome("Dorjan Shurdhi")
+                script{
+                    calculator.add(5,5)
+                    calculator.mul(5,5)
+                }
+            }
+        }
+    }
+}
