@@ -5,10 +5,10 @@ pipeline{
     stages{
         stage('Demo'){
             steps{
-                welcome("Elvis")
+                welcome("Vincenzo")
                 script{
-                    calculator.add(10,10)
-                    calculator.mul(10,2)
+                    calculator.add(4,4)
+                    calculator.mul(4,5)
                 }
             }
         }
