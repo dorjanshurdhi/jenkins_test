@@ -3,7 +3,7 @@
 pipeline{
     agent any
     stages{
-        stage('Demo'){
+        stage('Test Shared Libs'){
             steps{
                 welcome("Vincenzo")
                 script{
