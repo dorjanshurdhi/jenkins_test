@@ -9,6 +9,7 @@ pipeline{
                 script{
                     calculator.add(4,4)
                     calculator.mul(4,5)
+                    cat text.txt
                 }
             }
         }
