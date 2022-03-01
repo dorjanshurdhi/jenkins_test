@@ -5,7 +5,7 @@ pipeline{
     stages{
         stage('Test Shared Libs'){
             steps{
-                welcome("Vincenzo")
+                welcome("Elvis")
                 script{
                     calculator.add(4,4)
                     calculator.mul(4,5)
